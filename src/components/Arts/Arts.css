@@ -1,0 +1,53 @@
+.arts {
+    width: 100%;
+    height: 960px;
+    padding: 40px 1%;
+    background-color: #141A31;
+}
+
+.h3 {
+    color: #14C2A3;
+    font-size: 22px;
+}
+
+.h1 {
+    color: #fff;
+    font-size: 39px;
+    margin: 15px 0 35px 0;
+}
+
+.artsData {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.orb2 {
+    width: 300px;
+    height: 350px;
+    border: 2px solid #14C2A3;
+    transition: .7s;
+    padding: 15px;
+    background-color: rgba(34, 183, 143, 0.1);
+    margin-bottom: 25px;
+}
+  
+.orb2:hover {
+    cursor: pointer;
+    box-shadow: 0 0px 20px 0 rgb(34 183 143 / 50%);
+}
+
+.orb2 img {
+    width: 100%;
+    height: 273px;
+    object-fit: cover;
+}
+
+.orb2 h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 400;
+    color: #fff;
+}

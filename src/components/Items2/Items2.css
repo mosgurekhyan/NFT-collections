@@ -1,0 +1,22 @@
+.items2Main {
+    width: 100% !important;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.items2Div {
+    width: 280px !important;
+    height: 180px;
+    background-color: rgba(34, 183, 143, 0.1);
+    transition: .7s;
+    padding: 14px;
+    border: 2px solid transparent;
+}
+
+.items2Div:hover {
+    cursor: pointer;
+    box-shadow: 0 0px 32px 0 rgb(34 183 143 / 50%);
+    border: 2px solid #14C2A3;
+}

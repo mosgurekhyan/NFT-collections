@@ -1,0 +1,605 @@
+.home1 {
+    width: 100%;
+    height: 960px; 
+    position: relative;
+    padding: 0 1%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 960px;
+    background: url('https://cyboxhtml.surielementor.com/assets/images/backgroup/bg-1.jpg') center center no-repeat;
+    background-size: cover;
+    z-index: -5;
+}
+
+.home1Div1 {
+    margin-top: 265px;
+    width: 726px;
+    height: 500px;
+}
+
+.title {
+    font-size: 74px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 20px;
+    color: #B9B9BF;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 53px;
+}
+
+.dataDiv {
+    width: 520px;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.tf-button2 {
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    font-family: "Chakra Petch", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 194px;
+    height: 55px;
+    border: none;
+    background-color: #0dcaf0;
+}
+
+.tf-button2:hover {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.tf-button2::before {
+    left: 50%;
+    top: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+}
+
+.tf-button2 .boder-fade2 {
+    position: absolute;
+    transition: all 0.1s;
+    border: 2px solid #14C2A3;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.tf-button2 .effect2 {
+    display: block;
+}
+
+.tf-button2.btn-effect2:hover::after, .tf-button2.btn-effect2:hover::before {
+    left: 0;
+}
+
+.tf-button2.btn-effect2::before {
+    left: 50%;
+    top: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+}
+
+.tf-button2:hover::before, .tf-button2:hover::after {
+    width: 100%;
+}
+
+.tf-button2.btn-effect2:hover .effect2::after, .tf-button2.btn-effect2:hover .effect2::before {
+    top: 0;
+}
+
+.tf-button2.btn-effect2 .effect2::before {
+    left: 0;
+    top: 50%;
+    transition-duration: 0.3s;
+}
+
+.tf-button2:hover .effect2::before, .tf-button2:hover .effect2::after {
+    height: 100%;
+}
+
+.tf-button2 .effect2::before, .tf-button2 .effect2::after {
+    content: "";
+    width: 2px;
+    height: 0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+}
+
+.tf-button2.btn-effect2 .effect2::after {
+    right: 0;
+    top: 50%;
+    transition-duration: 0.3s;
+}
+
+.tf-button2.btn-effect2::after {
+    left: 50%;
+    bottom: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+}
+
+.tf-button2::before, .tf-button2::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+}
+
+.tf-button3 {
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    font-family: "Chakra Petch", sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 55px;
+    border: none;
+    border: 1px solid #0dcaf0;
+    margin-left: 17px;
+}
+
+.tf-button3:hover {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.tf-button3::before {
+    left: 50%;
+    top: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+}
+
+.tf-button3 .boder-fade3 {
+    position: absolute;
+    transition: all 0.1s;
+    border: 2px solid #14C2A3;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.tf-button3 .effect3 {
+    display: block;
+}
+
+.tf-button3.btn-effect3:hover::after, .tf-button3.btn-effect3:hover::before {
+    left: 0;
+}
+
+.tf-button3.btn-effect3::before {
+    left: 50%;
+    top: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+}
+
+.tf-button3:hover::before, .tf-button3:hover::after {
+    width: 100%;
+}
+
+.tf-button3.btn-effect3:hover .effect3::after, .tf-button3.btn-effect3:hover .effect3::before {
+    top: 0;
+}
+
+.tf-button3.btn-effect3 .effect3::before {
+    left: 0;
+    top: 50%;
+    transition-duration: 0.3s;
+}
+
+.tf-button3:hover .effect3::before, .tf-button3:hover .effect3::after {
+    height: 100%;
+}
+
+.tf-button3 .effect3::before, .tf-button3 .effect3::after {
+    content: "";
+    width: 2px;
+    height: 0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+}
+
+.tf-button3.btn-effect3 .effect3::after {
+    right: 0;
+    top: 50%;
+    transition-duration: 0.3s;
+}
+
+.tf-button3.btn-effect3::after {
+    left: 50%;
+    bottom: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+}
+
+.tf-button3::before, .tf-button3::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+}
+
+.home1Div2 {
+    width: 500px;
+    height: 800px;
+    margin-top: 160px;
+    animation: beast 3s ease-in infinite alternate;
+}
+
+.home1Div2 img {
+    max-width: 100%;
+    height: 800px;
+    transform: scale(1);
+}
+  
+@keyframes beast {
+    0% {
+      transform: translate(0, 0);
+    }
+    
+    50% {
+      transform: translate(-30px, 0);
+    }
+    
+    100% {
+      transform: translate(-130px, 0);
+    }
+}
+
+.home1Div3 {
+    width: 100%; 
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 1%;
+    background-color: #0c1226;
+}
+
+.home1Div4 {
+    width: 515px; 
+    height: 500px;
+    transition: 1s;
+}
+
+.home1Div4 h3 {
+    color: #14C2A3;
+    font-size: 20px;
+}
+
+.home1Div4 h1 {
+    font-size: 42px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.home1Div4 p {
+    font-size: 19px;
+    color: #B9B9BF;
+    letter-spacing: 1.2px;
+    word-spacing: 3px;
+    line-height: 24px;
+    margin-bottom: 70px;
+}
+
+.home1Div5 {
+    width: 100%;
+    height: 1160px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #0c1226;
+}
+
+.overlay2 {
+    background: url('https://cyboxhtml.surielementor.com/assets/images/backgroup/bg1roadmap.png')center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.home1Data1 {
+    margin: 30px 0;
+    width: 390px;
+    height: 100px;
+    text-align: center;
+}
+
+.home1Data1 h3 {
+    font-size: 23px;
+    color: #14C2A3;
+}
+
+.home1Data1 h1 {
+    font-size: 42px;
+    color: #fff;
+    margin-top: 11px;
+    font-weight: 400;
+}
+
+.home1Div51 {
+    width: 72%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.rod1 {
+    background-color: #565660;
+    width: .7%;
+    height: 430px;
+    position: absolute;
+    left: 49.65%;
+}
+
+.rod2 {
+    background-color: #14C2A3;
+    width: .7%;
+    height: 430px;
+    position: absolute;
+    left: 49.65%;
+    top: 430px;
+}
+
+.hom11 {
+    width: 50%;
+    height: 17%;
+    position: relative;
+    transition: all 2s ease;
+}
+
+.hom12 {
+    width: 50%;
+    height: 17%;
+    position: relative;
+    margin-top: 14%;
+    transition: all 2s ease;
+}
+
+.hom13 {
+    width: 50%;
+    height: 17%;
+    position: relative;
+    margin-top: -21%;
+    transition: all 2s ease;
+}
+
+.hom14 {
+    width: 50%;
+    height: 17%;
+    position: relative;
+    margin-top: -7%;
+    transition: all 2s ease;
+}
+
+.hom1 {
+    width: 81%;
+    height: 100%;
+    border: 1px solid #14C2A3;
+    padding: 14px;
+    transition: .7s;
+}
+
+.hom2 {
+    width: 81%;
+    height: 100%;
+    border: 1px solid #14C2A3;
+    margin-left: 19%;
+    padding: 14px;
+    transition: .7s;
+}
+
+.hom1:hover, .hom2:hover {
+    box-shadow: 0 0px 32px 0 rgb(34 183 143 / 50%);
+    cursor: pointer;
+}
+
+.hom1::before {
+    width: 4%;
+    height: 9%;
+    background-color: #565660;
+    content: "";
+    position: absolute;
+    left: 98%;
+    top: 46%;
+}
+
+.hom1::after {
+    width: 18%;
+    height: 1.6%;
+    background-color: #565660;
+    content: "";
+    position: absolute;
+    left: 81%;
+    top: 50%;
+}
+
+.hom2::before {
+    width: 4%;
+    height: 9%;
+    background-color: #565660;
+    content: "";
+    position: absolute;
+    right: 98%;
+    top: 46%;
+}
+
+.hom2::after {
+    width: 18%;
+    height: 1.6%;
+    background-color: #565660;
+    content: "";
+    position: absolute;
+    right: 81%;
+    top: 50%;
+}
+
+.home1Div51 h1 {
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.home1Div51 li {
+    font-size: 18px;
+    color: #B9B9BF;
+    margin-bottom: 2px;
+    letter-spacing: 1.3px;
+    word-spacing: 2.2px;
+}
+
+.home1Div6 {
+    width: 100%;
+    height: 470px;
+    margin-top: -70px;
+    z-index: 100;
+    position: relative;
+    padding: 3% 1%;
+    background-color: #0c1226;
+}
+
+.home1Div6 div {
+    width: 470px;
+    height: 180px;
+}
+
+.home1Div6 h2 {
+    color: #14C2A3;
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+
+.home1Div6 h1 {
+    color: #fff;
+    font-size: 37px;
+    margin-bottom: 17px;
+}
+.home1Div6 p {
+    color: #B9B9BF;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    word-spacing: .5px;
+}
+
+.home1Div7 {
+    width: 100%;
+    height: 410px;
+    padding: 2% 1%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #141A31;
+}
+
+.home1Div71 {
+    width: 550px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home1Div7 h2 {
+    font-size: 22px;
+    color: #14C2A3;
+}
+.home1Div7 h1 {
+    font-size: 38px;
+    color: #fff;
+    margin-top: 15px;
+}
+.home1Div7 h3 {
+    font-size: 26px;
+    margin-top: 57px;
+    color: #fff;
+}
+.home1Div7 p {
+    font-size: 19px;
+    letter-spacing: 1.3px;
+    margin-top: 12px;
+    word-spacing: 2.5px;
+    color: #B9B9BF;
+}
+
+.home1Div8 {
+    width: 100%;
+    height: 880px;
+    padding: 4% 1%;
+    text-align: center;
+    background-color: #0c1226;
+}
+
+.sp1 {
+    text-align: center;
+}
+
+.sp2 {
+    display: flex;
+    justify-content: center;
+}
+
+.home1Div8 h3, .answers h3 {
+    font-size: 21px;
+    color: #14C2A3;
+    margin-bottom: 10px;
+}
+
+.home1Div8 h1, .answers h1 {
+    font-size: 37px;
+    color: #fff;
+}
+
+.walletDiv {
+    width: 100%;
+    height: 370px;
+    background-color: #141A31;
+    border: solid #141A31;
+}
+
+

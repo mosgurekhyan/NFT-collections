@@ -1,0 +1,11 @@
+.overlayy {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 960px;
+    background: url('https://cyboxhtml.surielementor.com/assets/images/backgroup/bg-3.jpg') center center no-repeat;
+    background-size: cover;
+    z-index: -5;
+    filter: brightness(50%);
+}

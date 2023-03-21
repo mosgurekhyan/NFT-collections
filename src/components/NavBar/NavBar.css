@@ -1,0 +1,193 @@
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 1%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10000;
+    transition: 1.5s;
+}
+
+.ul {
+    width: 43%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -215px;
+}
+
+.ul li {
+    list-style: none;
+    position: relative;
+    color: white;
+    transition: .2s;
+}
+
+.ul li:hover {
+    color: #14C2A3;
+    cursor: pointer;
+}
+
+nav a:hover, .active-nav {
+    color: #14C2A3;
+}
+
+.li1:hover .ul1-1 {
+    visibility: visible;
+    left: 0;
+}
+
+.li2:hover .ul1-2 {
+    visibility: visible;
+    left: 0;
+}
+
+.li4:hover .ul1-4 {
+    visibility: visible;
+    left: 0;
+}
+
+.color {
+    color: #0c1226;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.image1 {
+    width: 165px;
+    height: 40px;
+}
+
+.arrow1 {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.ul li ul {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 28px;
+    background-color: #fff;
+    box-shadow: 0 0px 32px 0 rgb(34 183 143 / 50%);
+    border-radius: 2px;
+    z-index: 9999;
+    transform: translateY(15px);
+    transition: all .2s ease;
+    visibility: hidden;
+}
+
+.ul li ul li {
+    padding: 15px;
+    transition: none;
+}
+
+.tf-button {
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background: transparent;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 174px;
+    height: 48px;
+    border: none;
+    border: 1px solid #14C2A3;
+}
+
+.tf-button:hover {
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.tf-button::before {
+    left: 50%;
+    top: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+}
+
+.tf-button .boder-fade {
+    position: absolute;
+    transition: all 0.1s;
+    border: 2px solid #14C2A3;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.tf-button .effect {
+    display: block;
+}
+
+.tf-button.btn-effect:hover::after, .tf-button.btn-effect:hover::before {
+    left: 0;
+}
+
+.tf-button.btn-effect::before {
+    left: 50%;
+    top: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+}
+
+.tf-button:hover::before, .tf-button:hover::after {
+    width: 100%;
+}
+
+.tf-button.btn-effect:hover .effect::after, .tf-button.btn-effect:hover .effect::before {
+    top: 0;
+}
+
+.tf-button.btn-effect .effect::before {
+    left: 0;
+    top: 50%;
+    transition-duration: 0.3s;
+}
+
+.tf-button:hover .effect::before, .tf-button:hover .effect::after {
+    height: 100%;
+}
+
+.tf-button .effect::before, .tf-button .effect::after {
+    content: "";
+    width: 2px;
+    height: 0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+}
+
+.tf-button.btn-effect .effect::after {
+    right: 0;
+    top: 50%;
+    transition-duration: 0.3s;
+}
+
+.tf-button.btn-effect::after {
+    left: 50%;
+    bottom: 0;
+    transition-duration: 0.3s;
+    z-index: 1;
+}
+
+.tf-button::before, .tf-button::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+}

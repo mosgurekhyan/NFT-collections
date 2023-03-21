@@ -1,0 +1,133 @@
+.faq {
+    width: 100%;
+}
+
+.faqDiv1 {
+    text-align: center;
+    padding: 130px;
+    height: 260px;
+    background-color: #141A31;
+    width: 100%;
+}
+
+.h11 {
+    font-size: 55px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.faqDiv2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 80px 1%;
+    background-color: #100D1E;
+}
+
+.faqDiv3 {
+    width: 650px;
+    height: 550px;
+}
+
+.answersData11 {
+    border: 2px solid #14C2A3;
+    padding: 14px;
+    width: 640px;
+    height: 60px;
+    margin-top: 30px;
+    transition: .8s;
+    overflow: hidden;
+    background-color: #0e2230;
+}
+
+.answersData22 {
+    padding: 14px;
+    width: 640px;
+    height: 150px;
+    margin-top: 30px;
+    transition: .8s;
+    box-shadow: 0 0px 20px 0 rgb(34 183 143 / 50%);
+    border: 2px solid #14C2A3;
+    overflow: hidden;
+    background-color: #0e2230;
+}
+
+.answersData22:hover {
+    cursor: pointer;
+}
+
+.faqDiv3 h2 {
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.faqDiv3 h4 {
+    color: #B9B9BF;
+    font-size: 19px;
+    letter-spacing: .8px;
+}
+
+.arrow2 {
+    font-size: 25px;
+    color: #14C2A3;
+}
+
+.arrow2:hover {
+    cursor: pointer;
+}
+
+.faqDiv3 .iconDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqDiv4 {
+    width: 570px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h111 {
+    font-size: 37px;
+    color: #fff;
+}
+
+.p2 {
+    font-size: 19px;
+    color: #B9B9BF;
+    letter-spacing: .8px;
+    margin-top: 5px;
+    word-spacing: 4px;
+}
+
+.name {
+    width: 98%;
+    height: 52px;
+    margin-top: 30px;
+    padding: 0 22px;
+    font-size: 14px;
+    outline: none;
+    color: #B9B9BF;
+    background-color: #141A31;
+    border: none;
+}
+
+.name::placeholder {
+    color: #B9B9BF;
+}
+
+.yourM {
+    width: 98%;
+    margin: 25px 0 45px 0;
+    padding: 16px 0 82px 22px;
+    font-size: 14px;
+    outline: none;
+    color: #B9B9BF;
+    background-color: #141A31;
+    border: none;
+}
+
+.yourM::placeholder {
+    color: #B9B9BF;
+}

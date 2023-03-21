@@ -1,0 +1,50 @@
+.team {
+    width: 690px !important;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teaM {
+    width: 210px;
+    height: 345px;
+    border: 1px solid #14C2A3;
+    transition: .7s;
+    padding: 5px 0 9px 0;
+    text-align: center;
+}
+
+.teaM:hover {
+    box-shadow: 0 0px 32px 0 rgb(34 183 143 / 50%);
+    cursor: pointer;
+}
+
+.teamImg {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.teamh4 {
+    font-size: 19px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.teamP {
+    font-size: 15px !important;   
+}
+
+.iconsTeam {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    padding: 5px 20px;
+}
+
+.iconsTeam i {
+    color: #B9B9BF;
+    font-size: 20px;
+}

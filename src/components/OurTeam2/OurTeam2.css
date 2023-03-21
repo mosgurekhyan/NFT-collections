@@ -1,0 +1,47 @@
+.ourteam2 {
+    width: 100%;
+    height: 1100px;
+    padding: 50px 1%;
+    background-color: #141A31 ;
+}
+
+.ourTeam2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ourTeam2Data {
+    width: 290px;
+    height: 407px;
+    border: 1.2px solid #14C2A3;
+    transition: .7s;
+    padding: 5px 0 9px 0;
+    text-align: center;
+    margin-bottom: 35px;
+    background-color: #0e2230;
+}
+
+.ourTeam2Data:hover {
+    box-shadow: 0 0px 20px 0 rgb(34 183 143 / 50%);
+    cursor: pointer;
+}
+
+.ourTeam2Img {
+    width: 100%;
+    height: 285px;
+    object-fit: cover;
+}
+
+.ourTeam2h4 {
+    font-size: 19px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.ourTeam2P {
+    font-size: 15px !important;   
+    color: #B9B9BF;
+    margin-top: 7px;
+}

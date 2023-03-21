@@ -1,0 +1,64 @@
+.answers {
+    width: 100%;
+    height: 670px;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    background-color: #0c1226;
+}
+
+.answersImg {
+    object-fit: cover;
+    height: 500px;
+    width: 590px;
+}
+
+.answersData1 {
+    border: 2px solid #14C2A3;
+    padding: 14px;
+    width: 600px;
+    height: 60px;
+    margin-top: 30px;
+    transition: .8s;
+    overflow: hidden;
+}
+
+.answersData2 {
+    padding: 14px;
+    width: 600px;
+    height: 150px;
+    margin-top: 30px;
+    transition: .8s;
+    box-shadow: 0 0px 20px 0 rgb(34 183 143 / 50%);
+    border: 2px solid #14C2A3;
+    overflow: hidden;
+}
+
+.answersData2:hover {
+    cursor: pointer;
+}
+
+.answersDiv h2 {
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.answersDiv h4 {
+    color: #B9B9BF;
+    font-size: 19px;
+    letter-spacing: .8px;
+}
+
+.arrow2 {
+    font-size: 25px;
+    color: #14C2A3;
+}
+
+.arrow2:hover {
+    cursor: pointer;
+}
+
+.answersDiv .iconDiv {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,125 @@
+.nftItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #0c1226;
+    padding-bottom: 40px;
+}
+
+.nftItemDiv1 {
+    width: 100%;
+    padding: 50px 1%;
+    background-color: #0c1226;
+    margin-bottom: 40px;
+}
+
+.nftItemDiv2 {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.artsData2 {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form {
+    width: 320px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.form input {
+    padding: 0 22px;
+    font-size: 14px;
+    height: 55px;
+    width: 300px;
+    outline: none;
+    color: #B9B9BF;
+    background-color: #141A31;
+    border: .2px solid #B9B9BF;
+}
+
+.form button {
+    width: 28px;
+    height: 28px;
+    margin-left: -45px;
+    border: none;
+    outline: none;
+    background-color: #141A31;
+    transition: .5s;
+}
+
+.form button:hover {
+   cursor: pointer;
+}
+
+.form i {
+    border: none;
+    background: none;
+    color: #B9B9BF;
+    font-size: 15px;
+}
+
+.form input::placeholder {
+    color: #B9B9BF;
+}
+
+.nftItemDiv3 {
+    display: flex;
+    width: 475px;
+    height: 200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 10;
+}
+
+.divNFT {
+    width: 220px;
+    height: 55px;
+    border: .2px solid #B9B9BF;
+    background-color: #141A31;
+    font-size: 18px;
+    color: #B9B9BF;
+    padding: 15px 25px;
+}
+
+.divNFT:hover {
+    cursor: pointer;
+}
+
+.ulNFT {
+    width: 220px;
+    height: 117px;
+    margin-top: -30px;
+}
+
+.ulNFT li {
+    list-style: none;
+    padding: 9px 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0c1226;
+    transition: .5s;
+}
+
+.ulNFT li:hover {
+    background-color: #14C2A3;
+    cursor: pointer;
+}
+
+.arrow5 {
+    font-size: 17px;
+    color: #B9B9BF;
+    margin-left: 28px;
+}
+
